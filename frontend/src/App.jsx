@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { Toaster } from 'react-hot-toast';
 import { CartProvider } from './context/CartContext';
-import { AuthProvider } from './context/AuthContext';
+import { AuthProvider } from './context/authContext';
 import ProtectedRoute from './components/ProtectedRoute';
 import PriceIndex from './components/PriceIndex';
 

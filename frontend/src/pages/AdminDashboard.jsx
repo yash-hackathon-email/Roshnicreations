@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { getOrders } from '../services/orderService';
 import { formatPrice } from '../utils/helpers';
 import { motion } from 'framer-motion';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../context/authContext';
 import { useNavigate } from 'react-router-dom';
 
 const AdminDashboard = () => {

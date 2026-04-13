@@ -2,7 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { ShoppingCart, User, Gem, Menu, Home, Layers, Sparkles } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useCart } from '../context/CartContext';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../context/authContext';
 
 const Navbar = () => {
   const { cartItems } = useCart();
